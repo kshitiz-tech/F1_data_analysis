@@ -1,0 +1,37 @@
+{
+  "validation_metrics": {
+    "ridge_finish_position": {
+      "mae": 3.530562531587153,
+      "rmse": 4.730546257439425
+    },
+    "forest_finish_position": {
+      "mae": 3.5948992316946367,
+      "rmse": 4.7189564019659676
+    },
+    "logistic_podium": {
+      "accuracy": 0.8533916849015317,
+      "f1": 0.6127167630057804,
+      "roc_auc": 0.9473450970912899
+    },
+    "forest_podium": {
+      "accuracy": 0.9102844638949672,
+      "f1": 0.7132867132867133,
+      "roc_auc": 0.9543952944968174
+    }
+  },
+  "test_metrics": {
+    "ridge_finish_position": {
+      "mae": 3.5541352012192022,
+      "rmse": 4.605492466558113
+    },
+    "forest_podium": {
+      "accuracy": 0.8869346733668342,
+      "f1": 0.6808510638297872,
+      "roc_auc": 0.9434418145956606
+    }
+  },
+  "chosen_models": {
+    "regression": "ridge_finish_position",
+    "classification": "forest_podium"
+  }
+}

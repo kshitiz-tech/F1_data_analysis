@@ -1,0 +1,47 @@
+{
+  "pit_stop_rows": 6251,
+  "modeling_rows": 4165,
+  "modeling_year_span": [
+    2008,
+    2017
+  ],
+  "model_features": [
+    "grid",
+    "qualifying_position",
+    "best_qualifying_seconds",
+    "qualifying_delta_to_pole",
+    "grid_minus_qualifying",
+    "round",
+    "lat",
+    "lng",
+    "alt",
+    "driver_prev_standing_position",
+    "driver_prev_season_points",
+    "driver_prev_season_wins",
+    "driver_avg_finish_last_5",
+    "driver_avg_grid_last_5",
+    "driver_avg_points_last_5",
+    "driver_podium_rate_last_10",
+    "driver_top10_rate_last_10",
+    "driver_finish_rate_last_10",
+    "constructor_avg_finish_last_5",
+    "constructor_avg_grid_last_5",
+    "constructor_avg_points_last_5",
+    "constructor_podium_rate_last_10",
+    "constructor_top10_rate_last_10",
+    "constructor_finish_rate_last_10",
+    "driver_constructor_pair_starts",
+    "driver_circuit_starts",
+    "constructor_circuit_starts",
+    "driver_name",
+    "constructor_name",
+    "circuit_name",
+    "circuit_country",
+    "driver_nationality",
+    "constructor_nationality"
+  ],
+  "saved_models": {
+    "regression": "ridge_finish_position",
+    "classification": "forest_podium"
+  }
+}
